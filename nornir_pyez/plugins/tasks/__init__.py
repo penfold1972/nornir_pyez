@@ -17,6 +17,7 @@ from .pyez_sec_zones import pyez_sec_zones
 from .pyez_chassis_inventory import pyez_chassis_inventory
 from .pyez_arp_noresolve import pyez_get_arp
 from .pyez_optics_diags import pyez_get_int_optics_diag_info
+from .pyez_users import pyez_get_users
 
 __all__ = (
     "pyez_facts",
@@ -40,5 +41,5 @@ __all__ = (
     "pyez_chassis_inventory",
     "pyez_get_arp",
     "pyez_get_int_optics_diag_info",
-
+    "pyez_get_users",
 )
